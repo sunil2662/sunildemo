@@ -184,7 +184,7 @@
 #         else:
 #             self.balance+=a
 #             print(f"current balance:{self.balance}")
-
+#
 #     def withdraw(self):
 #         c=int(input("enter the amount wants to withdraw:"))
 #         if c < 100:
@@ -298,3 +298,33 @@
 # b.get_details()
 # b.man("male")
 # print("sunil")
+#
+# class bankaccount:
+#     def __init__ (self,account_holder,initial_balance):
+#         self.account_holder=account_holder
+#         self.balance=initial_balance
+#     def details(self):
+#         print(f"account holder name:",self.account_holder)
+#         print(f"current bank balance:",self.balance)
+#
+#     def deposit(self):
+#         a=int(input("enter the amount wants to deposit:"))
+#         if a < 100:
+#             print("amount must be greater than 100")
+#         else:
+#             self.balance+=a
+#             print(f"current balance:",self.balance)
+#
+#     def withdraw(self):
+#         b=int(input("enter the amount wants to withdraw:"))
+#         if b < 100:
+#             print("amount must be greater than 100")
+#             return 0
+#         else:
+#             self.balance-=b
+#             print(f"current bank balance:",self.balance)
+#
+# account=bankaccount("sunil",1000)
+# account.details()
+# account.deposit()
+# account.withdraw()

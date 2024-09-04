@@ -328,3 +328,8 @@
 # account.details()
 # account.deposit()
 # account.withdraw()
+
+
+# a=int(input("enter a num:"))
+# b=int(input("enter a num2:"))
+# print(a+b)

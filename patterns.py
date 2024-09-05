@@ -53,4 +53,11 @@
 #         print(i,end=" ")
 #         print()
 #     elif i%2!=0:
+<<<<<<< HEAD
 #         print(i,end=" ")
+
+# print("sunil")
+# print("hi hello")
+=======
+#         print(i,end=" ")
+>>>>>>> parent of 25bda68 (pattern modify)

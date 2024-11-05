@@ -473,3 +473,40 @@
 #     elif user > 10 and user < 20:
 #         print("thankyou")
 #         break
+
+
+# year=int(input("enter the year:"))
+# if year % 4==0:
+#     print("it is a leap year")
+# else:
+#     print("not a leap year")
+
+# num=int(input("enter the num:"))
+# fact=0
+# for i in range(1,num+1):
+#     fact=fact+i
+# print(fact)
+
+# num=int(input("enter the num:"))
+# if num % 1 == 0 and num % 2 != 0:
+#     print("it is a prim num")
+# else:
+#     print("it is not prime num")
+
+#
+# for i in range(2,100):
+#     if i % 2 == 0:
+#         print(i)
+
+#
+# for i in range(2,100):
+#     if i % 1 ==0 and i % 2 != 0:
+#         print(i)
+#
+# def myfunc():
+#     year=int(input("enter the year:"))
+#     if year % 4 ==0:
+#         print("it is leap year")
+#     else:
+#         print("in is not a leap year")
+# myfunc()

@@ -394,3 +394,59 @@
 # mad.sub()
 # mad.multi()
 
+# class A:
+#     def __init__ (self,name,age):
+#         self.name=str(input("enteer the name:"))
+#         self.age=
+#     def details(self):
+#         print(self.name)
+#         print(self.age)
+# man=A("sunil",22)
+# man.details()
+
+
+# class man:
+#     def __init__ (self):
+#         self.a=int(input("enter a num1:"))
+#         self.b=int(input("enter a num2:"))
+#     def addition(self):
+#         A=self.a+self.b
+#         print(A)
+# class men(man):
+#     def __init__ (self):
+#         self.a = int(input("enter a num1:"))
+#         self.b = int(input("enter a num2:"))
+#         self.c = int(input("enter a num3:"))
+#     def addition(self):
+#         B=self.a*self.b+self.c
+#         print(B)
+# took=men()
+# took.addition()
+
+#
+# class person:
+#     # def __init__ (self,a,b):
+#     #     self.a=a
+#     #     self.b=b
+#     #     self.c=c
+#     def man(a,b):
+#         C=a+b
+#         print(C)
+#     def man(a,b,c):
+#         print(a,b,c)
+#
+# men=person()
+# men.man(4,5)
+
+#
+# class example:
+#    def add(self, a, b):
+#       x = a+b
+#       print(x)
+#    def add(self, a, b,c):
+#       x = a*b+c
+#       print(x)
+#
+# obj = example()
+# obj.add(4,5,6)
+# obj.add(2,3,4 )
